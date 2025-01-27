@@ -19,7 +19,7 @@ local Window = ArrayField:CreateWindow({
     KeySettings = {
        Title = "Register",
        Subtitle = "Key System",
-       Note = "Key : '123mno'",
+       Note = "The Key Only My Friend Know it .",
        FileName = "Today.Key", -- It is recommended to use something unique as other scripts using ArrayField may overwrite your key file
        SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like ArrayField to get the key from
@@ -35,7 +35,7 @@ local Window = ArrayField:CreateWindow({
     }
  })
 
- local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+ locallocal Section = Tab:CreateSection("Homme",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 
 
 
